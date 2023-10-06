@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping>
+    <class name="hibernate.entity.MobilePhone" table="mobiles">
+        <id name="id" column="id">
+            <generator class="increment"/>
+        </id>
+        <property name="mfName" column="mfName"/>
+        <property name="price" column="price"/>
+        <property name="colour" column="colour"/>
+    </class>
+</hibernate-mapping>
